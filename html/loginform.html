@@ -4,10 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ecommerce</title>
+    <link href="../css/index.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Login</h1>
+    <header class="head" >
+        <div class="logo-ecm">
+            <a href="index.html" class="logo">Ecommerce</a>
+        </div>
+        <nav class="nav-div">
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <div class="rightdiv">
+                <a href="./loginform.html" ><i class="fa-solid fa-arrow-right-from-bracket"></i>Login</a>
+                <a href="./registerform.html" ><i class="fa-solid fa-user-plus"></i>Register</a>
+                <a href="./cart.html" ><i class="fa-solid fa-cart-shopping"></i>Cart (0)</a>  
+        </div>
+    </header>
+    <form>
+        <label>Email</label><br><br>
+        <input type="email" placeholder="name@example.com" required><br><br>
+        <label>Password</label><br><br>
+        <input type="password" placeholder="Password" required><br><br>
+        <span>New Here?</span><a href="./registerform.html">Register</a><br><br>
+    
+        <button>Login</button>
+    </form>
     <footer>
         <span>Made With Love  ❤️ By</span>
         <span>MOURYA NANI MADALA</span>
