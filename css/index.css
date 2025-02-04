@@ -105,4 +105,39 @@ header a{
     border-radius: 4px;
     font-family: Arial, Helvetica, sans-serif;
 }
+.img-cont{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;
+    padding: 40px;
+    margin-left: 30px;
+}
+.abt-img{
+    height: 200px;
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.abt-fig{
+    border: 1px solid;
+    height: 250px;
+    width: 300px;
+    border-radius: 10px;
+}
+.fig-cap{
+    text-align: center;
+    font-size: medium;
+    margin-top: 15px;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+}
+
+
+
+
+
+footer{
+    text-align: center;
+}
 
