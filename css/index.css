@@ -155,6 +155,134 @@ h1{
 .contact-form{
     margin-left: 700px;
 }
+#Cart{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.cart-container{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin-top: 40px;
+}
+
+.cartpage-itemlist{
+    border: 1px solid;
+    border-radius: 5px;
+    margin-left: 90px;
+    width: 850px;
+}
+
+.cartpage-ordersummary{
+    border: 1px solid;
+    border-radius: 5px;
+    width: 400px;
+    margin-left: 100px;
+
+}
+
+#cartpage-itemlist-div1{
+    background-color: grey;
+    color:black;
+    margin-top: 0;
+}
+
+.cartpage-img{
+    width: 150px;
+    height: 120px;
+}
+
+.cartpage-container2{
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.cartpage-imgdiv{
+    margin-left: 20px;
+}
+
+.cartpage-textdiv{
+    margin-top: 20px;
+    margin-left: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cartpage-totaldiv{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+
+.cartpage-itemlist-butn1{
+    margin-right: 40px;
+    background-color: white;
+    border: 0px none;
+    font-size: 40px;
+}
+
+.cartpage-itemlist-butn2{
+    margin-left: 40px;
+    background-color: white;
+    border: 0px none;
+    font-size: 30px;
+}
+
+#cartpage-itemlist-h3{
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.cartpage-ordersummary{
+    position: absolute;
+    margin-left: 1020px;
+}
+
+#cartpage-sumry-h3{
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.ordersummary-container{
+    display: flex;
+}
+
+.ordersummary-container2{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.ordersummary-container3{
+    margin-left: 200px;
+    margin-top: 20px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#checkout-button{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 350px;
+    height: 40px;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+
 
 
 
