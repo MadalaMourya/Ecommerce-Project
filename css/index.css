@@ -270,6 +270,7 @@ h1{
 .data-boxes{
     height: 30px;
     width: 300px;
+    font-size: medium;
 }
 input {
     padding: 10px;
@@ -303,6 +304,7 @@ textarea:focus {
     background-color: gray;
     color: white;
     margin-left: 110px;
+    font-size: medium;
 }
 .login-form{
     margin-left: 580px ;
@@ -318,6 +320,7 @@ textarea:focus {
     background-color: gray;
     color: white;
     margin-left: 150px;
+    font-size: medium;
 }
 .register-inputs{
     height: 25px;
@@ -330,9 +333,13 @@ textarea:focus {
     background-color: gray;
     color: white;
     margin-left: 120px;
+    font-size: medium;
 }
 /* Footer Part */
 footer{
     text-align: center;
-}
+} 
+
+
+
 
