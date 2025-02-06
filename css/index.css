@@ -1,9 +1,12 @@
 /* CSS For ECOMMERCE WEBSITE */
+*{
+    margin: 0px;
+}
 .head{
     height: 75px;
     display: grid;
     grid-template-columns: 20% 40% 40%;
-    background-color: whitesmoke;
+    background-color: white;
 }
 .logo-ecm{
     text-align: center;
@@ -28,7 +31,6 @@ header a{
     text-decoration: none;
     color: black;
 }
-
 #main-img{
     width: 1470px;
     margin-left: 30px;
@@ -40,7 +42,7 @@ header a{
 }
 .img-text1{
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: 5%;
     color: white;
     font-size: 50px;
@@ -329,13 +331,7 @@ textarea:focus {
     color: white;
     margin-left: 120px;
 }
-
-
-
-
-
-
-
+/* Footer Part */
 footer{
     text-align: center;
 }
